@@ -5,4 +5,4 @@ Most servers have external security for this. However, it is imperative that thi
 This enumerator aims to find users inside the SMTP server by brute force among the users that I will define.
 <br><br>
 
-- <b>Note:</b> Port 25 was defined in `sock.connect`, but you can use brute force on the ports, as it may be by default some other port in the SMTP service.
+- <b>Note:</b> In `sock.connect` port 25 has been defined, but you can brute force the ports as it may be by default some other port in the SMTP service.
